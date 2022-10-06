@@ -12,3 +12,12 @@ const toys = [
     {id: 40, name: 'El gato con Guantes'},
     {id: 40, name: 'El gato felix'}
     ]
+
+
+toys.forEach (function (element, index, array) {
+
+    if (element.includes('gato')) {
+
+        console.log(element.splice);
+    }
+})
