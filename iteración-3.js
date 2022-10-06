@@ -7,3 +7,10 @@
 
 
 const placesToTravel = ['Japon', 'Venecia', 'Murcia', 'Santander', 'Filipinas', 'Madagascar']
+
+
+for (const destinies of placesToTravel) {
+
+    console.log (destinies);
+    
+}

@@ -15,3 +15,10 @@ const alumns = [
 		{name: 'Alfredo Blanco', T1: false, T2: false, T3: false},
 		{name: 'Raquel Benito', T1: true, T2: true, T3: true}
 ]
+
+alumns.forEach (function (element, index,array) {
+
+    alumn = alumns[i];
+
+    if ()
+})
