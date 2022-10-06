@@ -14,10 +14,14 @@ const toys = [
     ]
 
 
-toys.forEach (function (element, index, array) {
+// toys.forEach (function (element, index, array) {
+//     if (toys.name.includes('gato')) {
+//         toys.splice(i, 1);
+//     }
+//     console.log(toys);
+// })
 
-    if (element.includes('gato')) {
 
-        console.log(element.splice);
-    }
-})
+for (let i = 0; i < toys.length; i++) {
+    if (toys)
+}

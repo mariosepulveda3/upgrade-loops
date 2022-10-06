@@ -11,9 +11,13 @@ const placesToTravel = [{id: 5, name: 'Japan'}, {id: 11, name: 'Venecia'}, {id: 
 
 placesToTravel.forEach (function (element, index, array) {
 
-    if (array.splice (11) || array.splice (40)) {
+    if (element.id === 11 || element.id === 40) {
 
-        console.log (placesToTravel);
+        placesToTravel.splice (index, 1);
+        // ¿Por qué sin el '1' no funciona?
     }
 
 })
+
+console.log (placesToTravel);
+
