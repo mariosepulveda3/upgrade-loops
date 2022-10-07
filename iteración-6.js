@@ -23,3 +23,6 @@ const toys = [
  })
 
  console.log(toys);
+
+ // PENDIENTE DE HACER CON FOR NORMAL.
+ // HACERLO FIN DE SEMANA.

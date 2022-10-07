@@ -16,3 +16,5 @@ products.forEach (function (element, index, array) {
         console.log (element);
     }
 })
+
+//PROBANDO FOREACH

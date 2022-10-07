@@ -35,16 +35,7 @@ for (let i = 0; i < alumns.length; i++) {
 console.log(alumns);
 
 
-  //      alumns.forEach (function (element, index, array) {
-  //      if (element[i].includes(true <= 2)) {
-  //        isApproved = true;
-  //      } else {
-  //        isApproved = false;
-  //      }
-  //          console.log (alumns);
-  //  })
-
-//   console.log (isApproved(alumns));
+// CORREGIDO EN CLASE Y CAMBIANDO PEQUEÑOS DETALLES
 
 
 

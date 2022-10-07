@@ -18,14 +18,4 @@ for (let i = 0; i < array.length; i++) {
         console.log (array);
     
 
-// placesToTravel.forEach (function (element, index, array) {
-
-//     if (element.id === 11 || element.id === 40) {
-      
-//         placesToTravel.splice (index, 1);
-//         // ¿Por qué sin el '1' no funciona?
-//     }
-// })
-
-// console.log (placesToTravel);
 
