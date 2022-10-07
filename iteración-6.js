@@ -10,13 +10,16 @@ const toys = [
     {id: 11, name: 'Action Woman'}, 
     {id: 23, name: 'Barbie Man'}, 
     {id: 40, name: 'El gato con Guantes'},
+    {id: 23, name: 'Barbie Man'},
     {id: 40, name: 'El gato felix'}
     ]
 
 
-    toys.forEach (function (element, index, array) {
+    toys.forEach (function (element, index) {
      if (toys[index].name.includes('gato')) {
          toys.splice(index);
      }
-     console.log(toys);
+        
  })
+
+ console.log(toys);

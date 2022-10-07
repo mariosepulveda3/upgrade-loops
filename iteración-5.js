@@ -8,15 +8,24 @@
 const placesToTravel = [{id: 5, name: 'Japan'}, {id: 11, name: 'Venecia'}, {id: 23, name: 'Murcia'}, 
 {id: 40, name: 'Santander'}, {id: 44, name: 'Filipinas'}, {id: 59, name: 'Madagascar'}]
 
+for (let i = 0; i < array.length; i++) {
+    
+    if ((array[i].includes('11') && array[i].includes('40'))) {
 
-placesToTravel.forEach (function (element, index, array) {
-
-    if (element.id === 11 || element.id === 40) {
-
-        placesToTravel.splice (index, 1);
-        // ¿Por qué sin el '1' no funciona?
+        array.splice (i, 1);
     }
-})
+    }
+        console.log (array);
+    
 
-console.log (placesToTravel);
+// placesToTravel.forEach (function (element, index, array) {
+
+//     if (element.id === 11 || element.id === 40) {
+      
+//         placesToTravel.splice (index, 1);
+//         // ¿Por qué sin el '1' no funciona?
+//     }
+// })
+
+// console.log (placesToTravel);
 
