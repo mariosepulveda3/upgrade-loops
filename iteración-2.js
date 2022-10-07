@@ -16,12 +16,16 @@ const alumns = [
 		{name: 'Raquel Benito', T1: true, T2: true, T3: true}
 ]
 
-alumns.forEach (function (value, index, array) {
+       alumns.forEach (function (element, index, array) {
+       if (element[i].includes(true <= 2)) {
+         isApproved = true;
+       } else {
+         isApproved = false;
+       }
+           console.log (alumns);
+   })
 
-    if (value <= 2) {
+//   console.log (isApproved(alumns));
 
-        return isApproved (true);
 
-    }
-    console.log (isApproved);
-})
+

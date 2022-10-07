@@ -20,8 +20,3 @@ const toys = [
 //     }
 //     console.log(toys);
 // })
-
-
-for (let i = 0; i < toys.length; i++) {
-    if (toys)
-}
