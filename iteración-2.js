@@ -16,14 +16,33 @@ const alumns = [
 		{name: 'Raquel Benito', T1: true, T2: true, T3: true}
 ]
 
-       alumns.forEach (function (element, index, array) {
-       if (element[i].includes(true <= 2)) {
-         isApproved = true;
-       } else {
-         isApproved = false;
-       }
-           console.log (alumns);
-   })
+// alumns[0] ['isApproved'] = false;
+
+for (let i = 0; i < alumns.length; i++) {
+ 
+  if ((alumns[i]['T1'] && alumns[i]['T2']) || 
+      (alumns[i]['T1'] && alumns[i]['T3']) || 
+      (alumns[i]['T2'] && alumns[i]['T3'])) {
+      
+        alumns[i]['isApproved'] = true;
+  
+      } else {
+   
+      alumns[i]['isApproved'] = false;
+  }
+}
+
+console.log(alumns);
+
+
+  //      alumns.forEach (function (element, index, array) {
+  //      if (element[i].includes(true <= 2)) {
+  //        isApproved = true;
+  //      } else {
+  //        isApproved = false;
+  //      }
+  //          console.log (alumns);
+  //  })
 
 //   console.log (isApproved(alumns));
 
