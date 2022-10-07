@@ -14,9 +14,9 @@ const toys = [
     ]
 
 
-// toys.forEach (function (element, index, array) {
-//     if (toys.name.includes('gato')) {
-//         toys.splice(i, 1);
-//     }
-//     console.log(toys);
-// })
+    toys.forEach (function (element, index, array) {
+     if (toys[index].name.includes('gato')) {
+         toys.splice(index);
+     }
+     console.log(toys);
+ })

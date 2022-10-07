@@ -13,8 +13,7 @@ const alien = {
 
 for (const key in alien) {
     if (alien.hasOwnProperty.call(alien, key)) {
-        const element = alien[key];
-        
+        const element = alien[key];    
     }
     console.log(alien);
 }

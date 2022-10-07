@@ -16,7 +16,6 @@ placesToTravel.forEach (function (element, index, array) {
         placesToTravel.splice (index, 1);
         // ¿Por qué sin el '1' no funciona?
     }
-
 })
 
 console.log (placesToTravel);
